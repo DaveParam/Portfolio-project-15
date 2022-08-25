@@ -1,0 +1,321 @@
+body{
+    background-color: black;
+    width: 100%;
+    margin-top: -20px;
+    color: white;
+    
+    
+}
+
+.logo-container img{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 350px;
+}
+
+.list-item{
+    margin:50px;
+    margin-top:-40px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-image img{
+    margin-right: 50px;
+    height: 750px;
+    width: 800px;
+    margin-top: -50px;
+}
+
+.right-headline{
+    float: right;
+    margin-top: -550px;
+    margin-right: 230px;
+    color: white;
+}
+
+.right-headline h4{
+    font-size: 30px;
+    color: red;
+}
+
+.right-headline h1{
+    font-size: 70px;
+    margin-top: -20px;
+    font-weight: bolder;
+}
+
+.right-headline p{
+    margin-top: -30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-headline button{
+    background-color: #c91b28;
+    border: none;
+    color: var(--white);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.hero .box {
+  position: absolute;
+  background-color: #181818;
+  width: 900px;
+  height: 950px;
+  left: -200px;
+  top: 843px;
+  z-index: -1;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+.service-card{
+    height: 350px;
+    width: 350px;
+    padding: 40px 10px;
+    background-color: #1e1e1e;
+    
+    
+}
+
+.service-card h1{
+    font-size:45px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 60px;
+    
+}
+.service-card p{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 60px;
+}
+.service-card2{
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    padding: 40px 10px;
+}
+
+.service-card2 h1{
+    font-size:45px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.service-card2 p{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.logo img{
+    margin-left: 55px;
+}
+
+.service-btn .btn{
+    margin-left: 55px ;
+    color: #f83241;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 29px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.service-btn .btn2{
+    margin-left: 55px ;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 29px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.service-stats .left{
+    margin-top: 90px;
+    margin-left: 250px;
+}
+
+.service-stats .left h1{
+    font-size: 95px;
+    color:red;
+}
+.service-stats .left p{
+    margin-top: -50px;
+    font-size: 35px;
+    margin-left: -50px;
+}
+
+.service-stats .right1{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    margin-left: 495px;
+  background-color: #1e1e1e;
+  margin-right: 200px;
+  height: 270px;
+}
+
+.right1 .card{
+    margin: 170px;
+    margin-top: 20px;
+   
+}
+.service-stats .right2{
+    display: flex;
+    justify-content: center;
+}
+.right2 .card{
+   
+    margin-top: 20px; 
+    margin-left: 320px;
+    margin-top: -150px;
+}
+
+.card h1{
+    color: red;
+    font-size: 45px;
+}
+
+.card p{
+    color: white;
+    margin-top: -20px;
+}
+
+.headline-left h1{
+    margin-top: 150px;
+    margin-left: 180px;
+    font-size: 60px;
+}
+.headline-left p{
+    margin-left: 180px;
+    margin-top: -25px;
+}
+.headline-right button{
+    background-color: red;
+    color: white;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    float: right;
+    margin-top: -90px;
+    margin-right: 150px;
+}
+
+.project-cards1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #1e1e1e;
+    height: 390px;
+}
+.project-img img{
+    width: 500px;
+    height: 300px;
+    padding-top: 45px;
+}
+.project-cards2{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: #1e1e1e;
+    height: 390px;
+}
+
+.project-card h1{
+    margin-top: 55px;
+}
+.proj-btn-container button{
+    color: #f83241;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 29px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.contact-section{
+    background-color: #1e1e1e;
+    height: 280px;
+}
+
+.contact-card .left h1{
+    margin-top: 250px;
+    font-size: 60px;
+    margin-left: 200px;
+    color: white;
+    padding-top: 30px;
+}
+.contact-card .left p{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.contact-card .right button{
+    background-color: red;
+    color: white;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    float: right;
+    margin-top: -150px;
+    margin-right: 300px;
+}
+.footer-nav ul{
+    display: flex;
+    margin-top: 90px;
+    list-style-type: none;
+    justify-content: center;
+}
+.footer-nav li{
+    margin: 70px;
+}
+.footer-wrapper{
+    background-color: #1e1e1e;
+    height: 180px;
+}
+.footer img{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.social-icons img{
+  float: right;
+   align-items: center;
+   margin-right: 100px;
+   margin-top: -10px;
+}
